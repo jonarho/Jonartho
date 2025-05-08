@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JonArtho - সবার জন্য ইনভেস্টমেন্ট</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #004466; color: #fff; padding: 1rem 2rem; text-align: center; }
+    nav { background: #003344; padding: 0.5rem; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 3rem 2rem; text-align: center; background: #e0f7fa; }
+    .section { padding: 2rem; max-width: 1000px; margin: auto; }
+    .card { background: #fff; padding: 1.5rem; margin: 1rem 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #004466; color: #fff; padding: 1rem; text-align: center; }
+    .button { background: #00796b; color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JonArtho</h1>
+    <p>সবার জন্য নিরাপদ ও লাভজনক ইনভেস্টমেন্ট প্ল্যাটফর্ম</p>
+  </header>  <nav>
+    <a href="#home">হোম</a>
+    <a href="#projects">প্রজেক্টসমূহ</a>
+    <a href="#invest">ইনভেস্ট করুন</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>  <section class="hero">
+    <h2>আপনার ছোট ইনভেস্টমেন্ট বদলে দিতে পারে কারো ভবিষ্যৎ</h2>
+    <p>আজই যুক্ত হন, নিরাপদভাবে লাভবান হোন</p>
+    <button class="button">ইনভেস্ট করুন</button>
+  </section>  <section class="section" id="projects">
+    <h2>চলমান প্রজেক্টসমূহ</h2>
+    <div class="card">
+      <h3>গ্রামীণ মুদি দোকান</h3>
+      <p>লাভ: ১২% | সময়কাল: ৬ মাস | প্রয়োজন: ২০,০০০ টাকা</p>
+      <button class="button">এই প্রজেক্টে ইনভেস্ট করুন</button>
+    </div>
+    <div class="card">
+      <h3>লোকাল ফার্মিং ইনভেস্টমেন্ট</h3>
+      <p>লাভ: ১৫% | সময়কাল: ৮ মাস | প্রয়োজন: ৩০,০০০ টাকা</p>
+      <button class="button">এই প্রজেক্টে ইনভেস্ট করুন</button>
+    </div>
+  </section>  <section class="section" id="invest">
+    <h2>ইনভেস্ট ফর্ম</h2>
+    <form>
+      <label>আপনার নাম: <input type="text" name="name" required /></label><br><br>
+      <label>মোবাইল নম্বর: <input type="text" name="phone" required /></label><br><br>
+      <label>ইনভেস্ট পরিমাণ: <input type="number" name="amount" required /></label><br><br>
+      <label>প্রজেক্ট নির্বাচন করুন: 
+        <select name="project">
+          <option>গ্রামীণ মুদি দোকান</option>
+          <option>লোকাল ফার্মিং</option>
+        </select>
+      </label><br><br>
+      <button class="button" type="submit">সাবমিট করুন</button>
+    </form>
+  </section>  <section class="section" id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <p>ফোন: ০১৭xxxxxxxx</p>
+    <p>ইমেইল: support@jonartho.com</p>
+  </section>  <footer>
+    <p>&copy; ২০২৫ JonArtho | তৈরি করেছেন আপনার জন্য</p>
+  </footer>
+</body>
+</html>
